@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #f2f2f2 !important;
+    color: #333333 !important; 
+    margin: 0;
+    padding: 0;
+     overflow-x: hidden; /* Add this line to hide horizontal overflow */
+}
+
+nav {
+    background-color: #607d8b !important;
+    color: #ffffff;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold !important;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    color: white !important;
+}
+.navbar-nav a {
+    color: white !important;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.jumbotron {
+    background-color: #607d8b !important; 
+    color: #ffffff !important;
+    padding: 100px 0;
+    border-radius: 0 !important;
+}
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+#tools {
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Pojects */
+.card {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 1rem;
+}
+
+/*Projects Animation*/
+#projects {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.card {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 8px;
+}
+/*Projects Animation*/
+
+#tools {
+    background-color: #607d8b !important;
+    color: #ffffff !important;
+}
+
+#footer {
+    background-color: #607d8b !important; 
+    color: #ffffff !important; 
+
+/*fade in animation*/
+ @keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/*Map*/
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
